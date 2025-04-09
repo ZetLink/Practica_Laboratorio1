@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+	int edad = 15;                                   //Si las variable poseen un dato deberian definise como constantes.
+	printf(„Ud. Tendra al año %d años‟, edad++)      //El simbolo "„" no es valido dentro de la estructura del printf. Para sumar el valor 1 a un dato debe realizase con "valor + 1". Falta ";" al final de la instruccion printf. El caracter "ñ" podria no ser mostrado correctamente en la consola.
+	return (EXIT_SUCCESS);
+}
