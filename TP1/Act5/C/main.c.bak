@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+	Int años = 15;                                  //El tipo de dato entero esta mal definido, deberia ser int. El caracter "ñ" no es valido para el compilador.
+    printf(“Ud. Tendra al año %d años”,años+1)      //Faltan ; al final de la instruccion printf. El caracter "ñ" podria no ser mostrado correctamente en la consola.
+    return (EXIT_SUCCESS);
+}
