@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#define CANTIDAD 0                                      //Si definimos la constante con 0 esto provocara error en la division
+
+int main(int argc, char *argv[]) {
+	int edad1, edad2;
+	printf("Ingrese la edad de la primera persona:");
+	scanf("%d",edad1);                                  //Falta el operador "&"
+	printf("Ingrese la edad de la segunda persona:");
+	scanf("%d",edad2);                                  //Falta el operador "&"
+	float promedio = (float)
+	(edad1+edad2)/CANTiDAD;                             //La constante "CANTIDAD" esta mal llamada
+	printf("El promedio de las edades es f.2%\n",       //Para imprimir un float debe utilizarse "%f", no "f.2".
+	&promedio);                                         //"&promedio" indica la direccion del dato no el valor que esta almacenado en la variable.
+	return (EXIT_SUCCESS);
+}
