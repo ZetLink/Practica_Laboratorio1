@@ -4,6 +4,12 @@
 #define CANTIDAD 2
 
 int main(int argc, char *argv[]) {
+	
+	printf("====================================================================\n");
+	printf("| El archivo con los errores explicados se encuentra en main.c.bak |\n");
+	printf("====================================================================\n");
+	printf("\n");
+	
 	int edad1, edad2;
 	printf("Ingrese la edad de la primera persona:");
 	scanf("%d", &edad1);

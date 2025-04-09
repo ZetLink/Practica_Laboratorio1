@@ -6,12 +6,13 @@
 
 int main(int argc, char *argv[]) {
 	
-	printf("=====================================================\n");
-	printf("| El archivo con errores se encuentra en main.c.bak |\n");
-	printf("=====================================================\n");
+	printf("====================================================================\n");
+	printf("| El archivo con los errores explicados se encuentra en main.c.bak |\n");
+	printf("====================================================================\n");
+	printf("\n");
 	
 	int area;
 	area = LARGO * ANCHO;
-	printf("\nEl area es %d\n", area);
+	printf("El area es %d\n", area);
 	return (EXIT_SUCCESS);
 }
