@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+	int edad1=7, edad2=8;                               //Si las variable poseen un dato deberian definise como constantes. Falta definir la variable donde se almacenara el promedio.
+    printf(“El promedio de las edades es f%\n”,         //La operacion de printf esta mal definida, falta un parentesis. Para imprimir un dato flotante debe usarse "%f", no "f%". Se intenta imprimir un dato flotante pero no se indica uno. La impresion del promedio deberia realizarse despues realizar la operacion para obtenerlo.
+    edad1+edad2/2);                                     //Falta una variable donde guardar la operacion. No existe un parentesis de apertura. Mal definida la operacion para calcular el promedio de dos numeros. El numero "2" deberia ser definido como float.
+    return (EXIT_SUCCESS);
+}
