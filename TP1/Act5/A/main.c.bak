@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int original(int argc, char *argv[]) {
+	ancho = 15							//Una constante debe ir definida fuera de la funcion main.
+	area = largo * ancho;				//Las variable "area" y "largo" no fueron previamente definidas por lo que no se puede determinar de que tipo son.
+	printf("El area es %d\n", area);
+	return (EXIT_SUCCESS);
+}
