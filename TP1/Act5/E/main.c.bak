@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+	int edad1=7, edad2=8;                               //Si las variable poseen un dato deberian definise como constantes.
+	float promedio = (edad1+edad2)/2;                   //El numero 2 debe ser de tipo float.
+	printf("El promedio de las edades es f.2%\n",       //Para imprimir un float debe utilizarse "%f", no "f.2".
+	promedio);
+	return (EXIT_SUCCESS);
+
+}
