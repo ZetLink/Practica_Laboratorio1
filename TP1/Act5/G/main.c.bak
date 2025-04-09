@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#define CANTIDAD 2
+
+int main(int argc, char *argv[]) {
+	int edad1, edad2;
+	printf("Ingrese la edad de la primera persona:");
+	scanf("%d",edad1);                                      //Falta el operador "&"
+	printf("Ingrese la edad de la segunda persona:");
+	scanf("%d",edad2);                                      //Falta el operador "&"
+	float promedio = (edad1+edad2)/Cantidad;                //La constante "CANTIDAD" esta mal llamada. La constante "CANTIDAD" debe ser casteada a float sino el resultado sera un dato de tipo int.
+	printf("El promedio de las edades es f.2%\n",           //Para imprimir un float debe utilizarse "%f", no "f.2".
+	promedio);
+	return (EXIT_SUCCESS);
+}
