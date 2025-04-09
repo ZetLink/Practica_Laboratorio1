@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+	float base = 15.0f;
+    float altura = 10.0f;
+    float superficie;
+    superficie = base * Altura % 2;                 //La formula para calcular la superficie es: (base * altura)/2. La llamada a la variable "Altura" es incorrecta, deberia ser "altura". El operador "%" debe utilizarse entre datos de tipo int.
+    printf(“La superficie es %\n”, superficie);     //Falta "%f" para imprimir la variable de tipo float.
+    return (EXIT_SUCCESS);
+}
